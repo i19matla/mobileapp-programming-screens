@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View niceViewOpener) {
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-                intent.putExtra("name", "Skickar med ett värde, om det funkar blir jag vardagslycklig.");
+                intent.putExtra("name", "Ett värde som skickas med från MainActivity.java");
                 startActivity(intent);
             }
         });
