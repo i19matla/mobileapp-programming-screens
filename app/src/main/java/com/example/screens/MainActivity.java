@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         startaAndraMainKnappen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View niceViewOpener) {
-                Intent erstesIntent = new Intent(MainActivity.this, MainActivity2.class);
-                erstesIntent.putExtra("name")
+                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                intent.putExtra("name")
             }
         });
     }
