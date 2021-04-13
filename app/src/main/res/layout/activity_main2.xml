@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <fragment
+        android:name="com.example.screens.BlankFragment"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:tag="blank_fragment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
